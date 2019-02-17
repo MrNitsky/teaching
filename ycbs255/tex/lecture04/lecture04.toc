@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Flexibility}{3}{0}{1}
+\beamer@sectionintoc {2}{Model Selection}{10}{0}{2}
+\beamer@sectionintoc {3}{Cross-validation}{13}{0}{3}

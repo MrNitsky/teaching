@@ -1,0 +1,35 @@
+\frametitle{}
+\tiny
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pylab as plt
+%matplotlib inline
+np.random.seed(0)
+n = 100
+X = np.vstack((np.random.multivariate_normal([0,0], [[1, 0], [0, 1]], n),
+             np.random.multivariate_normal([3, 3], [[1, 0], [0, 1]] , n)))
+plt.scatter(X[:,0], X[:,1]);
+\end{lstlisting}
+
+\begin{lstlisting}
+import scipy.cluster.hierarchy as AHC
+X_dist = AHC.distance.pdist(X) #make the pairwise distance
+X_linkage = AHC.linkage(X_dist, method = "average")
+den = AHC.dendrogram(X_linkage, no_labels = True)
+\end{lstlisting}
+
+\begin{lstlisting}
+from sklearn import cluster
+X_kmeans = cluster.KMeans(n_clusters = 2)
+X_kmeans.fit(X)
+X_labels = X_kmeans.labels_
+X_centers = X_kmeans.cluster_centers_
+\end{lstlisting}
+
+\begin{lstlisting}
+index=X_labels == 0
+plt.scatter(X[index, 0], X[index,1], color = "r")
+plt.scatter(X[~index,0], X[~index,1], color = "b")
+plt.scatter(X_centers[:,0], X_centers[:,1], color = "y",
+            facecolor="y", marker="+", s = 700)
+\end{lstlisting}

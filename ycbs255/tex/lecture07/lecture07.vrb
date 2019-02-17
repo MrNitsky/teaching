@@ -1,0 +1,10 @@
+\frametitle{}
+\tiny
+\begin{lstlisting}
+from statsmodels.nonparametric.smoothers_lowess import lowess
+
+xy = lowess(wage['wage'], wage['age'], frac=0.1)
+plt.scatter(wage['age'], wage['wage'], alpha=0.2)
+plt.plot(xy[:,0],xy[:,1], 'red')
+\end{lstlisting}
+\includegraphics[width=0.7\textwidth]{fig/lowess}

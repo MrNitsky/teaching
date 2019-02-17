@@ -1,0 +1,48 @@
+% Author Vahid Partovi Nia
+% Copyright Huawei Technologies
+% Network Mind Team
+
+
+
+\documentclass[12pt]{beamer}
+
+\usetheme{Hannover}
+\setbeamercolor{section in sidebar shaded}{fg=black}
+
+\usecolortheme{beaver}
+\beamertemplatenavigationsymbolsempty
+
+%  \usebeamertemplate{navigation symbols}\hfill
+%  \insertframenumber{}/\inserttotalframenumber}
+  
+
+\useoutertheme{sidebar}
+\pgfdeclareimage[width=2.5\baselineskip]{institut-logo}{fig/mcgill_logo}
+\setbeamertemplate{footline}
+{\raisebox{-2ex}{\pgfuseimage{institut-logo}}
+%  \hfill
+\hspace{5cm}
+  \usebeamertemplate{navigation symbols}
+  \insertframenumber{}/\inserttotalframenumber
+  \hspace{3.8cm}
+YCBS255
+}
+%\setbeamertemplate{sidebar right}{}
+  
+\setbeamercolor{block title}{fg=darkred}
+\setbeamercolor{local structure}{fg=darkred}
+
+\setbeamercolor{palette sidebar secondary}{fg=darkgray, bg=white}
+
+
+
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+
+
+\makeatletter
+\beamer@nav@subsectionstyle{hide/hide/hide}
+\makeatother
+
+\titlegraphic{\includegraphics[width=2cm]{fig/mcgill_logo}}
+
+

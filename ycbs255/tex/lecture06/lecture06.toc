@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Projection}{3}{0}{1}
+\beamer@sectionintoc {2}{Principal Components}{8}{0}{2}
+\beamer@sectionintoc {3}{Principal Component Regression}{16}{0}{3}
+\beamer@sectionintoc {4}{Partial Least Squares}{18}{0}{4}
+\beamer@sectionintoc {5}{Zip Code}{21}{0}{5}

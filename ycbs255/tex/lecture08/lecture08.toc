@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{CART}{3}{0}{1}
+\beamer@sectionintoc {2}{Bagging}{7}{0}{2}
+\beamer@sectionintoc {3}{Boosting}{9}{0}{3}

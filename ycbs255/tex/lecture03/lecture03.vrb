@@ -1,0 +1,17 @@
+\frametitle{QDA }
+\tiny
+\begin{lstlisting}
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+X = default_data[['balance']]
+y = default_data['default_factor']
+qda = QuadraticDiscriminantAnalysis()
+qda.fit(X,y)
+\end{lstlisting}
+\pause
+\begin{lstlisting}
+X_pred = np.array([1500, 2000]).reshape(-1,1)
+print(qda.predict_proba(X_pred))
+\end{lstlisting}
+
+%\begin{lstlisting}
+%\end{lstlisting}

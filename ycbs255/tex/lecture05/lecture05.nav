@@ -1,0 +1,79 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\sectionentry {1}{Credit dataset}{3}{Credit dataset}{0}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{0}{2}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{0}{3}{5/6}{}{0}}
+\headcommand {\beamer@framepages {5}{6}}
+\headcommand {\slideentry {1}{0}{4}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{0}{5}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{0}{6}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{0}{7}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{0}{8}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{0}{9}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{0}{10}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\sectionentry {2}{All subsets}{14}{All subsets}{0}}
+\headcommand {\beamer@sectionpages {3}{13}}
+\headcommand {\beamer@subsectionpages {3}{13}}
+\headcommand {\slideentry {2}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\sectionentry {3}{Stepwise selection}{15}{Stepwise selection}{0}}
+\headcommand {\beamer@sectionpages {14}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\slideentry {3}{0}{1}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\sectionentry {4}{Manual Implementation}{16}{Manual Implementation}{0}}
+\headcommand {\beamer@sectionpages {15}{15}}
+\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {4}{0}{1}{16/18}{}{0}}
+\headcommand {\beamer@framepages {16}{18}}
+\headcommand {\slideentry {4}{0}{2}{19/20}{}{0}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\slideentry {4}{0}{3}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {4}{0}{4}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\sectionentry {5}{Shrinkage}{23}{Shrinkage}{0}}
+\headcommand {\beamer@sectionpages {16}{22}}
+\headcommand {\beamer@subsectionpages {16}{22}}
+\headcommand {\slideentry {5}{0}{1}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {5}{0}{2}{24/24}{}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {5}{0}{3}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {5}{0}{4}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\sectionentry {6}{Ridge Implementation}{27}{Ridge Implementation}{0}}
+\headcommand {\beamer@sectionpages {23}{26}}
+\headcommand {\beamer@subsectionpages {23}{26}}
+\headcommand {\slideentry {6}{0}{1}{27/29}{}{0}}
+\headcommand {\beamer@framepages {27}{29}}
+\headcommand {\slideentry {6}{0}{2}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\sectionentry {7}{Lasso Implementation}{31}{Lasso Implementation}{0}}
+\headcommand {\beamer@sectionpages {27}{30}}
+\headcommand {\beamer@subsectionpages {27}{30}}
+\headcommand {\slideentry {7}{0}{1}{31/32}{}{0}}
+\headcommand {\beamer@framepages {31}{32}}
+\headcommand {\slideentry {7}{0}{2}{33/33}{}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@partpages {1}{33}}
+\headcommand {\beamer@subsectionpages {31}{33}}
+\headcommand {\beamer@sectionpages {31}{33}}
+\headcommand {\beamer@documentpages {33}}
+\headcommand {\def \inserttotalframenumber {26}}

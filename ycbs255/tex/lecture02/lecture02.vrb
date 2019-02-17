@@ -1,0 +1,8 @@
+\tiny
+\begin{lstlisting}
+import statsmodels.formula.api as smf
+model = smf.ols(formula='sales ~ TV + radio + newspaper',
+		data = advertising)
+lr = model.fit()
+lr.summary()
+\end{lstlisting}

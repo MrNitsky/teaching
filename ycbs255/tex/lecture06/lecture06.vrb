@@ -1,0 +1,29 @@
+\frametitle{}
+\tiny
+\begin{lstlisting}
+path='data/'
+filename = path+'ziptrain.csv'
+import numpy as np
+zipdata = np.loadtxt(filename)
+
+zipdata.shape
+\end{lstlisting}
+
+\begin{lstlisting}
+plt.imshow(-zipdata[0, 1:].reshape(16,16), "gray");
+\end{lstlisting}
+
+\includegraphics[width=0.3\textwidth]{fig/zip6} \pause
+\includegraphics[width=0.3\textwidth]{fig/zip5}\\
+\pause
+
+\begin{lstlisting}
+zipdata3=zipdata[zipdata[:, 0] == 3]
+zipdata8=zipdata[zipdata[:, 0] == 8]
+zipdata38 = np.vstack([zipdata3, zipdata8])
+
+pca = PCA(n_components=2)
+pca.fit(zipdata38[:, 1:])
+Z = pca.transform(zipdata38[:,1:])
+plt.scatter(Z[:,0], Z[:,1], c= zipdata38[:,0], alpha=0.3);
+\end{lstlisting}

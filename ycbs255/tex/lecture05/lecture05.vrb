@@ -1,0 +1,12 @@
+\frametitle{Least Angle Regression}
+The least angle regression provides a fast framework similar to forward selection gives the solution path for lasso.
+{\tiny
+\begin{lstlisting}
+import matplotlib.pyplot as plt
+from sklearn.linear_model import lars_path
+alphas,_,coefs = lars_path(X, y, method='lasso', verbose=True)
+alphas[1]
+coefs[:,1]
+\end{lstlisting}
+}
+\includegraphics[width=0.5\textwidth]{fig/larspath}

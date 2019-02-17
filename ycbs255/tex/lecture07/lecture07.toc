@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Splines}{3}{0}{1}
+\beamer@sectionintoc {2}{Nearest Neighbours}{9}{0}{2}
+\beamer@sectionintoc {3}{Local Regression}{18}{0}{3}

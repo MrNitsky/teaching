@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Credit dataset}{3}{0}{1}
+\beamer@sectionintoc {2}{All subsets}{14}{0}{2}
+\beamer@sectionintoc {3}{Stepwise selection}{15}{0}{3}
+\beamer@sectionintoc {4}{Manual Implementation}{16}{0}{4}
+\beamer@sectionintoc {5}{Shrinkage}{23}{0}{5}
+\beamer@sectionintoc {6}{Ridge Implementation}{27}{0}{6}
+\beamer@sectionintoc {7}{Lasso Implementation}{31}{0}{7}
